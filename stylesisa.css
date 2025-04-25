@@ -1,0 +1,162 @@
+
+body {
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.section-text p,
+.section-text li,
+.intro p,
+.conclusion p {
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-image: url('gatto.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-wrapper {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+.title {
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: rgb(254, 254, 254);
+    padding: auto;
+}
+
+.intro {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+}
+.intro h2 {
+    font-size: 2.2rem;
+}
+
+.intro p {
+    font-size: 1.2rem; /*zum root element die font size*/
+    color: #3e3c3c;
+    margin: 1rem auto;
+}
+
+.intro-text {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+    text-align: justify;
+}
+.intro-text p{
+    max-width: 60rem;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+}
+
+.disclaimer p {
+    font-size: 0.85em; /*Zum elternelement die fontsize*/
+    max-width: 200px;
+    color: #666;
+    text-align: center;
+}
+
+.disclaimer img{
+    max-width: 200px;
+    height: auto;
+}
+
+.reasons-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.reasons-section h2 {
+    font-size: 2.2rem;
+    color: #1d1c1c;
+}
+.img-text {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.img-text img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.section-text p{
+    font-size: 1.2rem;
+    color: #555;
+    text-align: justify;
+
+}
+.section-text ul {
+    list-style: none;
+    padding: 0 50px;
+    margin-top: 20px;
+}
+
+.section-text li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.conclusion {
+    background-color: #ffe6f0;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.conclusion h2 {
+    font-size: 2.2rem;
+    color: #333;
+}
+
+.conclusion p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.conclusion div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.conclusion div img {
+    max-width: 600px;
+}
+
+button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #ed3f79;
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: #8d1344;
+}
