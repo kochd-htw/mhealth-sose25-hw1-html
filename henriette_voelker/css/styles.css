@@ -1,0 +1,181 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    color: #333333;
+    background-color: #E2E2E2;
+}
+
+body {
+    font-size: 20px;
+    font-family: Poppins,sans-serif;
+    line-height: 1.80857;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    margin: 40px;
+    padding: 40px 70px;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li {
+    color: #b21d20;
+    margin: 5px;
+}
+
+body ol {
+    list-style-type:decimal;
+}
+
+body ol li {
+    color: black;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+
+
+nav {
+    max-width: 978px;
+    display: inline;
+    margin: auto;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #b21d20;
+}
+
+footer {
+    padding: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+h1 {
+    color: darkblue;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h1:hover {
+    text-decoration: underline #b21d20 double 2px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: left;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+a {
+    color: #b21d20;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+blockquote {
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+form {
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid lightgray;
+    margin: 2rem auto auto auto;
+    max-width: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+form input {
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    border: thin solid black;
+    padding: 15px;
+}
+
+th {
+    background-color: #b21d20;;
+    color: white;
+  }
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.image-text {
+    display: flex;
+    gap: 40px;
+    align-items:center;
+    padding: 40px 70px;
+}
+
+.image-text img {
+    height: 600px;
+}
+
+.content {
+    padding: 40px 70px;
+}

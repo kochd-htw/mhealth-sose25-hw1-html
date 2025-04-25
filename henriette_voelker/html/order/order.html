@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <title>Order now</title>
+    <link href="../../css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+<header>
+    <h1>Doing psychiatry in postwar Europe</h1>
+    <h2>Practices, routines and experiences</h2>
+    <h3><a href="../authors/authors.html">Editors</a> Gundula Gahlen, Volker Hess, Marianna Scarfone, Henriette Voelker</h3>
+</header>
+<nav>
+    <ul>
+        <li>
+            <a href="../index.html">Home</a>
+        </li>
+        <li>
+            <a href="../index.html#toc">Table of Contents</a>
+        </li>
+        <li>
+            <a href="../publication/publication.html">Publication details</a>
+        </li>
+        <li>
+            <a href="../authors/authors.html">Authors</a>
+        </li>
+        <li>
+            <a href="../order/order.html">Order now</a>
+        </li>
+    </ul>
+</nav>
+<body>
+    <h1>Order now</h1>
+    <form action="/services/handle-form" method="POST">
+        <fieldset>
+            <legend>Personal data</legend>
+            <label>
+                First name:
+                <input type="text" name="firstname" size="20" maxlength="50" />
+            </label>
+            <label>
+                Last name:
+                <input type="text" name="lastname" size="20" maxlength="50" />
+            </label>
+            <br />
+            <label>
+                Street:
+                <input type="text" name="street" size="20" maxlength="100" />
+            </label>
+            <label>
+                Zip code:
+                <input type="text" name="zipcode" size="20" maxlength="50" />
+            </label>
+            <label>
+                Country:
+                <input type="text" name="country" size="20" maxlength="50" />
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Payment details</legend>
+            <label>
+                <input type="radio" name="payment" value="paypal" />
+                PayPal
+            </label>
+            <label>
+                <input type="radio" name="payment" value="creditcard" />
+                Credit card
+            </label>
+            <label>
+                <input type="radio" name="payment" value="banktransfer" />
+                Bank transfer
+            </label>
+        </fieldset>
+        <fieldset>
+            <label>
+                <input type="checkbox" name="termsconditions" />
+                Terms and conditions
+            </label>
+            <label>
+                <input type="checkbox" name="newsletter" />
+                Newsletter
+            </label>
+        </fieldset>
+        <input type="submit" value="Order">
+    </form>
+</body>
+<footer>
+    <a href="https://www.amazon.de/-/en/Doing-Psychiatry-Postwar-Europe-Experiences/dp/1526173468" target="_blank">Buy on Amazon</a>
+    <a href="https://historypsychiatry.com/2024/06/07/doing-psychiatry-in-postwar-europe/" target="_blank">References on H-Madness</a>
+</footer>
