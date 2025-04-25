@@ -1,0 +1,58 @@
+:root {
+    --ammersee-blue1: #5c8fa8;
+    --ammersee-blue2: #1b6589;
+    --ammersee-blue3: #107660;
+    --ammersee-blue4: #0d3a5d;
+    --ammersee-blue5: #75b8ce;
+    --ammersee-blue6: #e1edff;
+    --reed-green: #a4b490;
+    --forest-green: #4a5a3c;
+    --sky-blue: #9db7c4;
+    --dawn-pink: #f2d3c2;
+    --sunset-orange: #e8a87c;
+    --shore-stone: #b9a98f;
+    --cloud-grey: #dcdcdc;
+  }
+
+body {
+    background-color: var(--sky-blue);
+    color: var(--forest-green);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    text-align: left;
+}
+
+h1 {
+    color: var(--ammersee-blue1);
+    text-align: right;
+}
+
+h2 {
+    color: var(--ammersee-blue2);
+    text-align: left;   
+}
+
+h3 {
+    color: var(--ammersee-blue3);
+    text-align: right;   
+}
+
+h4 {
+    color: var(--ammersee-blue4);
+    text-align: left;   
+}
+
+h5 {
+    color: var(--ammersee-blue5);
+    text-align: right;   
+}
+
+h6 {
+    color: var(--ammersee-blue6);
+    text-align: left;   
+}
+
+p {
+    color: var(--dawn-pink);
+}
