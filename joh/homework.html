@@ -19,6 +19,9 @@
             <div class="logo">
                 <p>LOGO</p>
             </div>
+            <div>
+                <button id="login"></button>
+            </div>
             <ul class="navbar_items">
                 <li><a href="">Home</a></li>
                 <li><a href="">News</a></li>
@@ -99,6 +102,16 @@
         </ol>
         <p>&copy; 2025 Johanna Menzler</p>
     </footer>
+    <script type="text/javascript">
+        // implement function that adds a visible HTML element to your website
+        const fun = () => {
+            const paragraph = document.createElement("p");
+            paragraph.textContent = "Hello, World!";
+            document.body.appendChild(paragraph);
+            document.getElementById("login").textContent = "Log in";
+        }
+        fun()
+    </script>
 </body>
 
 </html>
