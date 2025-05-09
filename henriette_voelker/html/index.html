@@ -3,6 +3,7 @@
     <head>
         <title>Doing psychiatry in postwar Europe</title>
         <link href="../css/styles.css" type="text/css" rel="stylesheet" />
+
     </head>
     <header>
         <h1>Doing psychiatry in postwar Europe</h1>
@@ -29,7 +30,7 @@
         </ul>
     </nav>
     <body>
-        <div class="image-text">
+        <div class="image-text" id="description">
             <p>
                 This collective volume looks at <b>European psychiatry in the second half of the twentieth century</b> through a variety of practices that were experienced and routinised in the mental health field after World War II. Case studies from across Europe allow one to appreciate how new ‘ways of doing’ contributed to transform the field, beyond the watchwords of deinstitutionalisation, the introduction of neuroleptics, centrality of patients, humanisation of spaces and overcoming of asylum-era habits. Through a variety of sources and often adopting a small-scale perspective, the chapters closely examine the way new practices took shape and how they installed themselves, eventually facing resistance, injecting new purposes and contributing to enlarging psychiatry’s fields of expertise, therefore blurring its once-more-defined boundaries. </br> The book has four sections: visions, experimentation, reflections and crossing boundaries. The first focuses on experiences that were viewed, lived and narrated by the protagonists as unique and utopian. This character of novelty is also questioned through the patient’s perspective. The following section focuses on some cases whose protagonists were aware that they were trialling new ways of doing. Although these did not necessarily become mainstream, new frameworks of therapeutic intervention were shaped, and feebler protocolar procedures and eclectic appropriations were allowed for. The third section shows how the actors were called to reflect on practices and give them meaning, adopting a reflective habit that questioned the very role of each protagonist of the therapeutic scene. The last section analyses how psychiatry entered fields of expertise other than those usually assumed.
             </p>
@@ -82,6 +83,20 @@
                 <li>Index</li>
             </ul>
         </div>
+    
+        <script type="text/javascript">
+            const createNewParagraph = () => {
+                const paragraph = document.createElement("p")
+                const node = document.createTextNode("Hier habe ich etwas dazwischen geschrieben!")
+                paragraph.appendChild(node)
+
+                const div = document.getElementById("description")
+                div.appendChild(paragraph)
+            }
+            
+            createNewParagraph()
+
+        </script>
     </body>
     <footer>
         <a href="https://www.amazon.de/-/en/Doing-Psychiatry-Postwar-Europe-Experiences/dp/1526173468" target="_blank">Buy on Amazon</a>
